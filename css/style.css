@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+
+.page-header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 18px;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.menu {
+    padding: 10px;
+    margin-left: 10%;
+}
+
+.menu ul {
+    display: inline-block;
+    width: 60%;
+    position: absolute;
+    text-align: center;
+}
+
+.menu img {
+    margin-right: 5px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu li:last-child {
+    float: right;
+} 
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner {
+    margin-left: 10%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.banner h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.banner p {
+    line-height: 1.5;
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+.button {
+    background-color: #2cb34a;
+    border-radius: 100px;   
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 30px;
+    box-shadow: 0 0 3px #666;
+    color: #ffffff;
+}
+
+.about {
+    background-color: #e2e2e2;
+}
+
+.description {
+    background-color: white;
+	margin: 5% 0 5% 25%;
+	height: 40%;
+	width: 20%;
+	padding: 4%;
+
+
+	display: inline-block;
+	position: absolute;
+}
+
+.description h1 {
+    color: #2cb34a;
+}
+
+.description p {
+    font-size: 20px;
+    margin-top: 15%;
+    margin-bottom: 35%;
+}
+
+.about img {
+    margin-left: 47%;
+}
+
+.container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.catalog { 
+    margin-left: 8%;
+}
+
+.catalog h1 {
+    color: #2cb34a;
+    margin-left: 2%;
+}
+
+.product {
+    margin-left: 2%;
+    margin-bottom: 2%;
+	width: 15%;
+	outline:1px solid gray;
+	box-shadow: 0 0 7px #666;
+    padding-bottom: 2%;
+    display: inline-block;
+}
+
+.product h3 {
+    padding: 10px;
+}
+
+.btn {
+    margin: 10px;
+    background-color: #2cb34a;
+    border-radius: 100px;   
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 15px;
+    box-shadow: 0 0 3px #666;
+    color: #ffffff;
+}
