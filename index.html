@@ -10,8 +10,9 @@
           <a href="index.html"><img src="img/logo.png" width=11% height=11%></a>
         <ul>
           <li><a href="index.html">Главная</a></li>
-          <li><a href="">О нас</a></li>
+          <li><a href="aboutus.html">О нас</a></li>
           <li><a href="catalog.php">Каталог</a></li>
+          <li><a href="reviews.html">Отзывы</a></li>
           <li><img src="img/phone.png" width=15px height=15px>+7 (928)-601-22-26</li>
         </ul>
    </div>
@@ -22,16 +23,115 @@
     <a class="button" href="#feedback">Подробнее</a>
     </div>
   </div>
+  
   <div class="about">
     <div class="container">
      <div class="description">
       <h1>О нас</h1><br>
-      <p>Предоставляем широкий ассортимент деревянной мебели: столы, скамейки, стулья, кресла, табуреты, обувницы, вешалки, разделочные доски и другое</p>
-      <a class="button" href="#feedback">Сделать заказ</a>
+      <p>Предоставляем широкий ассортимент деревянной мебели: столы, скамейки, стулья, кресла, табуреты, обувницы, вешалки, разделочные доски и другое</p><br><br>
+      <a class="button" href="aboutus.html">Подробнее о нас</a>
      </div>
     <img src="img/pic.jpg" width="27%" height="40%">
    </div>
   </div>
 
+  <div class="advantages">
+    <h1>Преимущества</h1>
+     <div class="advantage_items">
+      <div class="advantage_col1">
+          <img src="img/icon-1.png">
+          <h3>Высокое качество и долговечность</h3>
+      </div>
+      <div class="advantage_col2">
+          <img src="img/icon-1.png">
+          <h3>Опыт производства 10 лет</h3>
+      </div>
+      <div class="advantage_col1">
+          <img src="img/icon-1.png">
+          <h3>Выполнение по договору в срок</h3>
+      </div>
+      <div class="advantage_col2">
+          <img src="img/icon-1.png">
+          <h3>Оперативная доставка</h3>
+      </div>
+      <div class="advantage_col1">
+          <img src="img/icon-1.png">
+          <h3>Десятки довольных клиентов</h3>
+      </div>
+      <div class="advantage_col2">
+          <img src="img/icon-1.png">
+          <h3>Сотни выполненных заказов</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-catalog">
+    <h1>Каталог</h1>
+    <div class="products">       
+      <div class="product">
+          <img src="img/1.jpg" width=100% height=100%>
+          <h3>Cтол квадратный</h3>
+          <a class="btn" href="#feedback">Заказать</a>
+      </div>
+      <div class="product">
+        <img src="img/2.jpg" width=100% height=100%>
+        <h3>Деревянная мебель</h3>
+        <a class="btn" href="#feedback">Заказать</a>
+    </div>
+    <div class="product">
+      <img src="img/3.jpg" width=100% height=100%>
+      <h3>Кресло садовое</h3>
+      <a class="btn" href="#feedback">Заказать</a>
+    </div>
+   </div>
+   <a class="catalog-button" href="catalog.php">Смотреть ещё</a><br><br><br>
+  </div>
+
+
+  <div class="feedback" id="feedback">
+    <h1 class="feedback">Оставьте заявку</h1>
+    <h3>Оставьте свои контакты и мы свяжемся с Вами в течение дня!</h3><br><br>
+    <form action="mail.php" method="POST" class="form">
+      
+      <input type="text" name="name" required="" placeholder="Ваше имя" class="form__input"/><br>
+      <input type="text" name="phone" required="" placeholder="Ваш телефон" class="form__input"/><br>
+      <input type="text" name="comment" placeholder="Комментарий" class="form__input"/><br>
+      <label><br>
+        <input type="checkbox" required="">
+        Я согласен с политикой конфиденциальности
+        </label><br><br><br>
+        <button class="form__button" type="submit">Отправить</button>
+      <br><br>
+    </form>
+  </div>
+
+
+  <div class="contacts">
+    <div style="float:right;position:relative;overflow:hidden;margin-top:3%;"><a href="https://yandex.ru/maps/org/sadovaya_mebel/116004771048/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Садовая мебель</a><a href="https://yandex.ru/maps/11029/rostov-oblast/category/garden_furniture/184108055/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Садовая мебель в Ростовской области</a><iframe src="https://yandex.ru/map-widget/v1/?ll=39.736022%2C47.343676&mode=poi&poi%5Bpoint%5D=39.734255%2C47.343450&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D116004771048&source=morda&z=17.87" width="560" height="400" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe></div>
+    <h1>Контакты</h1><br><br>
+    <p>Адрес: ул. Солнечная 2, посёлок <br>
+      Темерницкий, Щепкинское сельское <br>
+      поселение, Аксайский район, Ростовская область<br><br>
+      +7 (928) 601-22-26<br><br>
+      t.pchela66@mail.ru</p>
+      
+      <div class="icons">
+        <a href="https://www.livemaster.ru/546555" target="blank"><img src="img/icon.png"></a>
+        <a href="https://www.avito.ru/user/4c34e7646e7acab8571c4df279b26f4e/profile?id=2685108366&src=item&page_from=from_item_card_icon&iid=2685108366" target="blank"><img src="img/avito.jpg"></a>
+        <a href="https://wa.me/88005553535" target="blank"><img src="img/wa.png"></a>
+      </div>
+  </div>
+
+  <div class="footer">
+      <div class="menu">
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="aboutus.html">О нас</a></li>
+        <li><a href="catalog.php">Каталог</a></li>
+        <li><a href="reviews.html">Отзывы</a></li>
+        <li><img src="img/phone.png" width=15px height=15px>+7 (928)-601-22-26</li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
