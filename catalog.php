@@ -4,14 +4,15 @@
 <link rel="stylesheet" href="css/style.css" type="text/css"/>
 </head>
 <body>
-  <div class="page-header">
+  <div class="catalog-header">
    <div class="navbar">
         <div class="menu">
-          <a href=""><img src="img/logo.png" width=11% height=11%></a>
+          <a href="index.html"><img src="img/logo.png" width=11% height=11%></a>
         <ul>
           <li><a href="index.html">Главная</a></li>
-          <li><a href="">О нас</a></li>
+          <li><a href="aboutus.html">О нас</a></li>
           <li><a href="catalog.php">Каталог</a></li>
+          <li><a href="reviews.html">Отзывы</a></li>
           <li><img src="img/phone.png" width=15px height=15px>+7 (928)-601-22-26</li>
         </ul>
    </div>
@@ -31,9 +32,9 @@
           while($products = mysqli_fetch_assoc($result)){ 
             ?>        
           <div class="product">
-          <img src="<?php echo $products['imgFile']; ?>" width=100% height=100%><br>
+          <img src="<?php echo $products['imgFile']; ?>" width=100% height=100%>
           <h3><?php echo $products['name']; ?></h3>
-          <a class="btn" href="#feedback">Заказать</a>
+          <a class="btn" href="index.html#feedback">Заказать</a>
         </div>
         <?php } ?>
 
@@ -41,6 +42,16 @@
 
    
   </div>
-
+  <div class="footer">
+      <div class="menu">
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="aboutus.html">О нас</a></li>
+        <li><a href="catalog.php">Каталог</a></li>
+        <li><a href="reviews.html">Отзывы</a></li>
+        <li><img src="img/phone.png" width=15px height=15px>+7 (928)-601-22-26</li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
