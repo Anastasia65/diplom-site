@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="css/style.css" type="text/css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<script defer src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script defer src="js/script.js"></script>
 </head>
 <body>
+  <header>
   <div class="page-header">
+    <div class="header__burger">
+      <span>
+      </span>
+    </div>
    <div class="navbar">
-        <div class="menu">
-          <a href="index.html"><img src="img/logo.png" width=11% height=11%></a>
+    <div class="header__menu">
+        <nav class="menu">
+          <a href="index.html"><img src="img/logo.png" width=200px height=55px class="logo"></a>
         <ul>
           <li><a href="index.html">Главная</a></li>
           <li><a href="aboutus.html">О нас</a></li>
@@ -15,53 +25,39 @@
           <li><a href="reviews.html">Отзывы</a></li>
           <li><img src="img/phone.png" width=15px height=15px>+7 (928)-601-22-26</li>
         </ul>
-   </div>
+      </nav>
   </div> 
+</div>
+
     <div class="banner">
     <h1>Cадовая мебель из массива сосны</h1>
-    <p>Доставка по России. Десятки положительных отзывов.<br>Производство под заказ</p><br><br>
-    <a class="button" href="#feedback">Подробнее</a>
+    <p>Доставка по России. Десятки положительных отзывов.<br>Производство под заказ</p><br>
+    <a class="button" href="#advantages">Подробнее</a>
     </div>
   </div>
-  
+</header>
   <div class="about">
     <div class="container">
      <div class="description">
-      <h1>О нас</h1><br>
-      <p>Предоставляем широкий ассортимент деревянной мебели: столы, скамейки, стулья, кресла, табуреты, обувницы, вешалки, разделочные доски и другое</p><br><br>
+      <h1>О нас</h1>
+      <p>Предоставляем широкий ассортимент деревянной мебели: столы, скамейки, стулья, кресла, табуреты, обувницы, вешалки, разделочные доски и другое</p>
       <a class="button" href="aboutus.html">Подробнее о нас</a>
      </div>
     <img src="img/pic.jpg" width="27%" height="40%">
    </div>
   </div>
 
-  <div class="advantages">
+  <div class="advantages" id="advantages">
     <h1>Преимущества</h1>
      <div class="advantage_items">
-      <div class="advantage_col1">
-          <img src="img/icon-1.png">
-          <h3>Высокое качество и долговечность</h3>
-      </div>
-      <div class="advantage_col2">
-          <img src="img/icon-1.png">
-          <h3>Опыт производства 10 лет</h3>
-      </div>
-      <div class="advantage_col1">
-          <img src="img/icon-1.png">
-          <h3>Выполнение по договору в срок</h3>
-      </div>
-      <div class="advantage_col2">
-          <img src="img/icon-1.png">
-          <h3>Оперативная доставка</h3>
-      </div>
-      <div class="advantage_col1">
-          <img src="img/icon-1.png">
-          <h3>Десятки довольных клиентов</h3>
-      </div>
-      <div class="advantage_col2">
-          <img src="img/icon-1.png">
-          <h3>Сотни выполненных заказов</h3>
-      </div>
+      <ul>  
+       <li><img src="img/icon-1.png"><h3>Высокое качество и долговечность</h3></li>
+       <li><img src="img/icon-1.png"><h3>Опыт производства 15 лет</h3></li>
+       <li><img src="img/icon-1.png"><h3>Выполнение по договору в срок</h3></li>
+       <li><img src="img/icon-1.png"><h3>Оперативная доставка</h3></li>
+       <li><img src="img/icon-1.png"><h3>Десятки довольных клиентов</h3></li>
+       <li><img src="img/icon-1.png"><h3>Сотни выполненных заказов</h3></li>
+    </ul>
     </div>
   </div>
 
@@ -98,7 +94,7 @@
       <input type="text" name="comment" placeholder="Комментарий" class="form__input"/><br>
       <label><br>
         <input type="checkbox" required="">
-        Я согласен с политикой конфиденциальности
+        Я согласен с <a href="">политикой конфиденциальности</a>
         </label><br><br><br>
         <button class="form__button" type="submit">Отправить</button>
       <br><br>
@@ -107,14 +103,13 @@
 
 
   <div class="contacts">
-    <div style="float:right;position:relative;overflow:hidden;margin-top:3%;"><a href="https://yandex.ru/maps/org/sadovaya_mebel/116004771048/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Садовая мебель</a><a href="https://yandex.ru/maps/11029/rostov-oblast/category/garden_furniture/184108055/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Садовая мебель в Ростовской области</a><iframe src="https://yandex.ru/map-widget/v1/?ll=39.736022%2C47.343676&mode=poi&poi%5Bpoint%5D=39.734255%2C47.343450&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D116004771048&source=morda&z=17.87" width="560" height="400" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe></div>
-    <h1>Контакты</h1><br><br>
-    <p>Адрес: ул. Солнечная 2, посёлок <br>
-      Темерницкий, Щепкинское сельское <br>
+    <div class="map"><div style="float:right;position:relative;overflow:hidden;margin-top:3%;"><a href="https://yandex.ru/maps/org/sadovaya_mebel/116004771048/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Садовая мебель</a><a href="https://yandex.ru/maps/11029/rostov-oblast/category/garden_furniture/184108055/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Садовая мебель в Ростовской области</a><iframe src="https://yandex.ru/map-widget/v1/?ll=39.736022%2C47.343676&mode=poi&poi%5Bpoint%5D=39.734255%2C47.343450&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D116004771048&source=morda&z=17.87" width="560" height="400" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe></div></div>
+    <h1>Контакты</h1>
+    <p>Адрес: ул. Солнечная 2, посёлок 
+      Темерницкий, Щепкинское сельское 
       поселение, Аксайский район, Ростовская область<br><br>
       +7 (928) 601-22-26<br><br>
       t.pchela66@mail.ru</p>
-      
       <div class="icons">
         <a href="https://www.livemaster.ru/546555" target="blank"><img src="img/icon.png"></a>
         <a href="https://www.avito.ru/user/4c34e7646e7acab8571c4df279b26f4e/profile?id=2685108366&src=item&page_from=from_item_card_icon&iid=2685108366" target="blank"><img src="img/avito.jpg"></a>
@@ -123,7 +118,7 @@
   </div>
 
   <div class="footer">
-      <div class="menu">
+      <nav class="footer__menu">
       <ul>
         <li><a href="index.html">Главная</a></li>
         <li><a href="aboutus.html">О нас</a></li>
@@ -131,7 +126,7 @@
         <li><a href="reviews.html">Отзывы</a></li>
         <li><img src="img/phone.png" width=15px height=15px>+7 (928)-601-22-26</li>
       </ul>
-    </div>
+    </nav>
   </div>
 </body>
 </html>
