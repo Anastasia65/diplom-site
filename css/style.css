@@ -362,6 +362,9 @@ html {
     .description {
         margin: 0 0 0 26%;
     }
+    .description p {
+        padding-bottom: 10%!important;
+    }
 }
 
 @media (max-width: 500px) {
@@ -700,7 +703,6 @@ h1 {
 }
 
 .feedback a {
-    text-decoration: none;
     color: #fff;
 }
 
@@ -1051,16 +1053,15 @@ input::placeholder {
         width: 90%;
     }
 }
-.admin {
-    text-align: center;
-    padding-top: 15%;
-}
 
-.admin h2 {
-    color: #2cb34a;
+.policy {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 20px 15px;
 }
-
-.field {
-    width: 10%;
-    margin: 20px 0 20px 0;
+@media (max-width: 767px) {
+    .policy {
+        font-size: 14px;
+    }
 }
